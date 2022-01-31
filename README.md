@@ -19,7 +19,7 @@ All built to be efficent and fast.
 
 # Install:
 ```
-npm install react-native-device-log --save
+npm install --save https://github.com/wanxsb/react-native-device-log
 ```
 # Example:
 ```js

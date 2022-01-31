@@ -6,12 +6,12 @@
     "ios",
     "android"
   ],
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A GUI and service for handling development log messages on a device",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/olofd/react-native-device-log.git"
+    "url": "git+https://github.com/wanxsb/react-native-device-log.git"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,10 +19,11 @@
   "author": "Olof Dahlbom",
   "license": "MIT",
   "dependencies": {
-    "json-stringify-safe": "^5.0.1",
-    "react-native-invertible-scroll-view": "^1.1.0",
-    "moment": "^2.18.1",
+    "@react-native-community/netinfo": "^7.1.9",
     "debounce": "^1.0.2",
+    "json-stringify-safe": "^5.0.1",
+    "moment": "^2.18.1",
+    "react-native-invertible-scroll-view": "^1.1.0",
     "stacktrace-parser": "^0.1.4"
   }
 }
