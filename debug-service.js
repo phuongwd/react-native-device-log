@@ -1,5 +1,5 @@
 import { AsyncStorage, AppState } from "react-native";
-import NetInfo from "@react-native-community/netinfo";
+// import NetInfo from "@react-native-community/netinfo";
 import moment from "moment";
 import InMemory from "./adapters/in-memory";
 import timers from "./timers";
@@ -123,10 +123,10 @@ class DebugService {
             );
         }
         if (this.options.logConnection) {
-            NetInfo.addEventListener(
-                "connectionChange",
-                this._handleConnectivityTypeChange.bind(this)
-            );
+            // NetInfo.addEventListener(
+            //     "connectionChange",
+            //     this._handleConnectivityTypeChange.bind(this)
+            // );
         }
         if (this.options.logRNErrors) {
             this.setupRNErrorLogging();
